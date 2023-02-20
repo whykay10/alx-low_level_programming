@@ -1,4 +1,4 @@
-#include <stdio.h>
+i#include <stdio.h>
 
 /**
  * main - main function
@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	printf("Size of a char: %lu byte(s)\n", (long unsigned int)sizeof(char));
-	printf("Size of a int: %lu byte(s)\n",(long unsigned int)sizeof(int));
-	printf("Size of a long int: %lu byte(s)\n", (long unsigned int)sizeof(long int));
-	printf("Size of a long long int: %lu byte(s)\n", (long unsigned int)sizeof(long long int));
-	printf("Size of a float: %lu byte(s)\n", (long unsigned int)sizeof(float));
+	puts("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(char));
+	puts("Size of a int: %lu byte(s)\n",(unsigned long)sizeof(int));
+	puts("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(long int));
+	puts("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(long long int));
+	puts("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(float));
 	return (0);
 }
